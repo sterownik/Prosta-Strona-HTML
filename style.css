@@ -1,0 +1,144 @@
+body
+{
+	background-image: url("tlo/tlo.png");
+	margin:0px;
+	font-family: 'Lato', sans-serif;
+	font-size:25px;
+}
+#logo
+{
+	width:100%;
+	height:50px;
+	text-align:center;
+	background-color: #485B3B;
+	font-size:36px;
+	color:white;
+	text-transform:uppercase;
+	padding:5px 0px 5px 0px;
+	letter-spacing:3px;
+	border-bottom:2px solid #33402a;
+	text-shadow:
+	2px 2px 0 #33402a,
+	-2px 2px 0 #33402a,
+	-2px -2px 0 #33402a,
+	2px -2px 0 #33402a;
+}
+a:link
+{
+	color:#000000;
+	
+	text-decoration:none;
+}
+a:visited
+{
+	color:#000000;
+	
+	text-decoration:none;
+}
+
+.scrollup
+{
+	width:64px;
+	height:64px;
+	text-decoration:none;
+	background:url("img/up.png") no-repeat 0px 0px;
+	position :fixed;
+	right: 50px;
+	bottom: 50px;
+	display:none;
+}
+a:hover
+{
+	color:#485b3b;
+	
+	text-decoration:underline;
+}
+a:active
+{
+	color:#000000;
+	
+	text-decoration:none;
+}
+#container
+{
+	width:878px;
+	background-color:white;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+#spis
+{
+	width:780px;
+	padding-left:100px;
+	margin-left:20px;
+	margin-right:20px;
+	text-align:left;
+}
+
+.slajd
+{
+	
+	padding:20px 40px
+	text-align :justify;
+	
+}
+#stopka
+{
+	width:100%;
+	
+	text-align:center;
+	background-color: #485B3B;
+	font-size:17px;
+	color:white;
+	padding:5px 0px 5px 0px;
+	letter-spacing:3px;
+	border-bottom:2px solid #33402a;
+	text-shadow:
+	2px 2px 0 #33402a,
+	-2px 2px 0 #33402a,
+	-2px -2px 0 #33402a,
+	2px -2px 0 #33402a;
+}
+ol{
+	margin-top:5px;
+}
+ol > li{
+	font-size:22px;
+	text-transform:uppercase;
+	font-weight: 700;
+	letter-spacing:3px;
+	padding:5px;
+	
+}
+h1
+{
+	font-size:24px;
+	text-transform:uppercase;
+	font-weight: 700;
+}
+
+ol > li > ul{
+	font-size:18px;
+	text-transform:none;
+	font-weight:400;
+	padding:0px;
+	letter-spacing:0px;
+	margin-top:5px;
+	margin-left:30px;
+	list-style-type:none;
+}
+ol > li > ul > li{
+	margin:0px;
+	
+}
+ol > li > ul > li:before
+{
+	color: #485B3B;
+	content:"♣";
+	margin-right:5px;
+}
+
